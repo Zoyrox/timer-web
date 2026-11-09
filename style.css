@@ -1,0 +1,18 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: lightblue;
+}
+
+#display {
+  font-size: 80px;
+}
+
+input {
+  width: 100px;
+  font-size: 18px;
+}
+
+button {
+  font-size: 18px;
+}
