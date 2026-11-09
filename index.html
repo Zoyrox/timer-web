@@ -1,20 +1,18 @@
-<!DOCTYPE html>
-<html lang="it">
-<head>
-  <meta charset="UTF-8">
-  <title>Timer</title>
-  <link rel="stylesheet" href="style.css">
-</head>
 <body>
-  <h1>Timer</h1>
-  <p id="display">0:00</p>
+  <main>
+    <h1>Timer</h1>
+    <p id="display">0:00</p>
 
-  <input type="number" id="minuti" placeholder="Minuti">
-  <input type="number" id="secondi" placeholder="Secondi">
-  <br><br>
-  <button onclick="avvia()">Avvia</button>
-  <button onclick="reset()">Reset</button>
+    <div class="campi">
+      <input type="number" id="minuti" placeholder="Minuti">
+      <input type="number" id="secondi" placeholder="Secondi">
+    </div>
+
+    <div class="pulsanti">
+      <button class="avvia" onclick="avvia()">Avvia</button>
+      <button class="reset" onclick="reset()">Reset</button>
+    </div>
+  </main>
 
   <script src="script.js"></script>
 </body>
-</html>
